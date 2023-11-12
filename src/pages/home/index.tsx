@@ -1,7 +1,7 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 // import Navigation from '../../components/navigation'
-import Navigation from '@/components/card'
+import Navigation from '@/components/navigation'
 
 type Props = {}
 
