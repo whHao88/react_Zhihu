@@ -1,0 +1,75 @@
+// {
+//   "extends": ["eslint:recommended", "plugin:react/recommended"],
+//   "parser": "@babel/eslint-parser",
+//   "parserOptions": {
+//     "ecmaVersion": 6,
+//     // "sourceType": "module",
+//     "ecmaFeatures": {
+//       "jsx": true
+//     }
+//   },
+//   "plugins": ["react"],
+//   "rules": {
+//     "react/display-name": "off",
+//     "react/no-children-prop": "off",
+//     "react/jsx-boolean-value": "off",
+//     "react/jsx-closing-bracket-location": "off",
+//     "react/jsx-curly-spacing": "off",
+//     "react/jsx-equals-spacing": "off",
+//     "react/jsx-filename-extension": [
+//       "error",
+//       {
+//         // "extensions": [".js", ".jsx"]
+//         "extensions": [".js", ".jsx", ".tsx"]
+//       }
+//     ],
+//     "react/jsx-indent": "off",
+//     "react/jsx-indent-props": "off",
+//     "react/jsx-key": "off",
+//     "react/jsx-max-props-per-line": "off",
+//     "react/jsx-no-duplicate-props": "off",
+//     "react/jsx-no-target-blank": "warn",
+//     "react/jsx-no-undef": "error",
+//     "react/jsx-pascal-case": "off",
+//     "react/jsx-sort-props": "off",
+//     "react/jsx-tag-spacing": "off",
+//     "react/jsx-uses-react": "error",
+//     "react/jsx-uses-vars": "error",
+//     "react/no-danger": "off",
+//     "react/no-deprecated": "off",
+//     "react/no-did-mount-set-state": "off",
+//     "react/no-did-update-set-state": "off",
+//     "react/no-find-dom-node": "off",
+//     "react/no-multi-comp": "off",
+//     "react/no-render-return-value": "off",
+//     "react/no-string-refs": "off",
+//     "react/no-unescaped-entities": "off",
+//     "react/no-unknown-property": "off",
+//     "react/prefer-es6-class": "off",
+//     "react/prop-types": "off",
+//     "react/react-in-jsx-scope": "error",
+//     "react/require-extension": "off",
+//     "react/self-closing-comp": "off",
+//     "react/sort-comp": "off",
+//     "react/wrap-multilines": "off",
+//     // "import/no-unresolved": [
+//     //   "error",
+//     //   {
+//     //     "amd": true,
+//     //     "commonjs": true,
+//     //     "caseSensitive": true,
+//     //     "ignorePackageNames": ["-webkit-"]
+//     //   }
+//     // ],
+//     "import/prefer-default-export": "off"
+//     // "import/extensions": [
+//     //   "error",
+//     //   {
+//     //     "js": "never",
+//     //     "jsx": "never",
+//     //     "json": "always"
+//     //     // [".scss"]: "never"
+//     //   }
+//     // ]
+//   }
+// }
