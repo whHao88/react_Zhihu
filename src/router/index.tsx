@@ -3,6 +3,7 @@ import React from 'react'
 import Home from '../pages/home/index'
 import Education from '../pages/education/index'
 import Learning from '../pages/education/learning/index'
+import Explore from '@/pages/expolre'
 
 interface extraRouter {
   title: string
@@ -36,12 +37,23 @@ export const router: ZHRouter = [
   },
   {
     path: '/education',
-    title: '教育',
+    title: '知乎知学堂',
     element: <Education />,
     children: [
       {
         path: 'learning',
         element: <Learning />,
+      },
+    ],
+  },
+  {
+    path: '/explore',
+    title: '发现',
+    element: <Explore />,
+    children: [
+      {
+        path: '',
+        element: <div>commandList</div>,
       },
     ],
   },
